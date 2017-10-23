@@ -10,24 +10,27 @@ body {
 
 ul {
          list-style-type: none;
-         margin: 0;
-         padding: 0;
+
          overflow: hidden;
          background-color: grey;
 }
 
 li {
          float: left;
-         padding: 20px;
-         overflow: hidden;
-         border: 2px solid red;
+         height: 80px;
+         border-right: 1px solid darkgrey;
+}
+
+#logo {
+         width: 200px;
+}
+
+li.menu {
+         width: 100px;
 }
 
 table, h1 {
          clear: left;
 }
 
-#image:hover {
-         content: "images/world_data_logo_v1_hover.png" ;
-}
 
