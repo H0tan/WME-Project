@@ -1,0 +1,33 @@
+/* aufgabe1.css */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import "font-awesome-4.7.0/css/font-awesome.min.css";
+
+
+body {
+         font-family: Roboto;
+}
+
+ul {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+         overflow: hidden;
+         background-color: grey;
+}
+
+li {
+         float: left;
+         padding: 20px;
+         overflow: hidden;
+         border: 2px solid red;
+}
+
+table, h1 {
+         clear: left;
+}
+
+#image:hover {
+         content: "images/world_data_logo_v1_hover.png" ;
+}
+
