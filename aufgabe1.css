@@ -6,19 +6,23 @@
 
 body {
          font-family: Roboto;
+         font-style: normal;
+         font-size: 14px;
 }
 
 ul {
          list-style-type: none;
-
+         border-top: 1px solid #A0A0A0;
+         border-bottom: 1px solid #CBCBCB;
          overflow: hidden;
-         background-color: grey;
+         background-image: linear-gradient(#D1D1D1, #F0F0F0);
+         height: 80px;
 }
 
 li {
          float: left;
          height: 80px;
-         border-right: 1px solid darkgrey;
+         border-right: 1px solid #CDCDCD;
 }
 
 #logo {
@@ -26,11 +30,29 @@ li {
 }
 
 li.menu {
-         width: 100px;
+         padding-top: 40px;
+         padding-left: 20px;
+         padding-right: 20px;
+         transition: background-color 0.5s;
+}
+
+li.menu:hover {
+         background-color: #CCCCCC;
+}
+
+#textbox {
+         padding: 10px;
+         border-top: 1px solid #66C716;
+         border-right: 1px solid #CDCDCD;
+         border-bottom: 1px solid #CDCDCD;
+         border-left: 1px solid #CDCDCD;
+         border-bottom-left-radius: 5px;
+         border-bottom-right-radius: 5px;
+
+
 }
 
 table, h1 {
          clear: left;
 }
-
 
