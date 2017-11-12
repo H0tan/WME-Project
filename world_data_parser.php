@@ -21,6 +21,7 @@ class WorldDataParser
                          }
                  }
                  $result = $xml_data->asXML('/world_data.xml');
+                 return $result;
          }
 
          function printXML()
