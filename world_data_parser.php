@@ -59,10 +59,10 @@ class WorldDataParser
          function printXML(string $path1, string $path2)
          {
 		$xml = new DOMDocument();
-		$xml->loadXML(file_get_contents($url)); 
+		$xml->loadXML($path1); 
 
 		$xsl = new DOMDocument();
-		$xsl->load('feed-to-html-table.xsl');
+		$xsl->load($path2);
 
 		$xsltp = new XSLTProcessor();
 		$xsltp->importStyleSheet($xsl);
