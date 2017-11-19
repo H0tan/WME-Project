@@ -2,8 +2,11 @@
 
 class WorldDataParser
 {
-         function parseCSV()
+         function parseCSV(string $path)
          {
+		$open = fopen($path, "r");
+		$array = fgetcsv($open);
+		return $array;
          }
 
          function saveXML($data_array)
