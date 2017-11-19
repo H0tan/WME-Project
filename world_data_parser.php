@@ -59,7 +59,7 @@ class WorldDataParser
          function printXML(string $path1, string $path2)
          {
 		$xml = new DOMDocument();
-		$xml->loadXML($path1); 
+		$xml->load($path1); 
 
 		$xsl = new DOMDocument();
 		$xsl->load($path2);
